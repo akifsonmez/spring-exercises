@@ -12,6 +12,7 @@
     <modules>
         <module>rest-hello</module>
         <module>rest-api-with-mongo</module>
+        <module>rest-api-with-elastic-search</module>
     </modules>
 
     

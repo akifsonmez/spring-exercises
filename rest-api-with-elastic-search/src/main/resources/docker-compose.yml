@@ -1,0 +1,10 @@
+version: '2.2'
+services:
+  elasticsearch:
+    image: elasticsearch:7.14.1
+    environment:
+      - discovery.type=single-node
+    volumes:
+      - "./elasticsearch_data:/usr/share/elasticsearch/data"
+    ports:
+      - "9200:9200"
