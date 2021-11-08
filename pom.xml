@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.akifsonmez</groupId>
-    <artifactId>springboot</artifactId>
+    <artifactId>spring-exercises</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     
@@ -13,6 +13,7 @@
         <module>rest-hello</module>
         <module>rest-api-with-mongo</module>
         <module>rest-api-with-elastic-search</module>
+	<module>spring-aop</module>
     </modules>
 
     
